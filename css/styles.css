@@ -1,3 +1,11 @@
+/* * {
+    margin: 0 0 ;
+    
+   
+*/
+p {margin: 0 0 20px;}
+h2 {margin: 0 0 20px;}
+
 body{
     font-family: "Roboto", sans-serif;
 }
@@ -7,6 +15,7 @@ a{
 ul{
     list-style-type: none;
 }
+
 .logo{
     font-weight: 700;
 font-size: 18px;
@@ -55,7 +64,7 @@ background-color: #2E2F42;
     text-align: center;
     font-weight: 700;
 font-size: 56px;
-line-height: 1.07143;
+line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center;
 color: #fff;
@@ -86,7 +95,13 @@ font-family: inherit;
 }
  .our-team-list .box{
     background-color: #FFFFFF;
- margin-bottom: 0;} 
+} 
+
+.our-team-list li:last-child{margin: 0;}
+
+ .our-team-list li{margin: 0 0 20px;
+    overflow: hidden;
+ }
  
  .box-text-name{
     font-family: "Roboto", sans-serif;
